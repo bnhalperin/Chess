@@ -1,13 +1,11 @@
 package board;
+import java.util.*;
+import pieces.Piece;
 
 public class Board {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("I hate SVN");
-	}
+	private LinkedList<Piece> pieceList = new LinkedList<Piece>();
+			
+	
 
 }
